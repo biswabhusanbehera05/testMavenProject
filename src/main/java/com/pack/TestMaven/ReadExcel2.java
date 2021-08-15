@@ -4,6 +4,8 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestContext;
+import org.testng.TestRunner;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -65,6 +67,12 @@ public class ReadExcel2 {
 	{
 		System.out.println("after test");
 		driver.close();
+	}
+	
+	@BeforeTest
+	public void setup(ITestContext ctx) {
+	    TestRunner runner = (TestRunner) ctx;
+	    runner.setOutputDirectory("D:\\testNg-report");
 	}
 
 }
