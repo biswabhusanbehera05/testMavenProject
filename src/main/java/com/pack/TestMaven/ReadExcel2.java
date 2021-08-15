@@ -69,10 +69,10 @@ public class ReadExcel2 {
 		driver.close();
 	}
 	
-	@BeforeTest
+	/*@BeforeTest
 	public void setup(ITestContext ctx) {
 	    TestRunner runner = (TestRunner) ctx;
 	    runner.setOutputDirectory("D:\\testNg-report");
-	}
+	}*/
 
 }
