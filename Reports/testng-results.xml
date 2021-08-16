@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite_Demo_App" duration-ms="26036" started-at="2021-08-16T22:14:46 IST" finished-at="2021-08-16T22:15:12 IST">
+    <groups>
+    </groups>
+    <test name="Test_Demo" duration-ms="26036" started-at="2021-08-16T22:14:46 IST" finished-at="2021-08-16T22:15:12 IST">
+      <class name="com.pack.TestMaven.ReadExcel2">
+        <test-method status="PASS" signature="loadDriver()[pri:0, instance:com.pack.TestMaven.ReadExcel2@63e2203c]" name="loadDriver" is-config="true" duration-ms="5470" started-at="2021-08-16T22:14:46 IST" finished-at="2021-08-16T22:14:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadDriver -->
+        <test-method status="PASS" signature="myTestcase()[pri:0, instance:com.pack.TestMaven.ReadExcel2@63e2203c]" name="myTestcase" duration-ms="18299" started-at="2021-08-16T22:14:52 IST" finished-at="2021-08-16T22:15:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestcase -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.pack.TestMaven.ReadExcel2@63e2203c]" name="closeDriver" is-config="true" duration-ms="2187" started-at="2021-08-16T22:15:10 IST" finished-at="2021-08-16T22:15:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.pack.TestMaven.ReadExcel2 -->
+    </test> <!-- Test_Demo -->
+  </suite> <!-- Suite_Demo_App -->
+</testng-results>
