@@ -2,35 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31672" started-at="2021-08-15T11:07:20Z" finished-at="2021-08-15T11:07:52Z">
+  <suite name="Suite_Demo_2" duration-ms="20683" started-at="2021-08-16T16:11:28Z" finished-at="2021-08-16T16:11:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31672" started-at="2021-08-15T11:07:20Z" finished-at="2021-08-15T11:07:52Z">
+    <test name="Test_Demo_2" duration-ms="20683" started-at="2021-08-16T16:11:28Z" finished-at="2021-08-16T16:11:49Z">
       <class name="com.pack.TestMaven.ReadExcel2">
-        <test-method status="PASS" signature="loadDriver()[pri:0, instance:com.pack.TestMaven.ReadExcel2@31610302]" name="loadDriver" is-config="true" duration-ms="14895" started-at="2021-08-15T11:07:20Z" finished-at="2021-08-15T11:07:35Z">
+        <test-method status="PASS" signature="loadDriver()[pri:0, instance:com.pack.TestMaven.ReadExcel2@31610302]" name="loadDriver" is-config="true" duration-ms="5594" started-at="2021-08-16T16:11:28Z" finished-at="2021-08-16T16:11:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadDriver -->
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.pack.TestMaven.ReadExcel2@31610302]" name="setup" is-config="true" duration-ms="8" started-at="2021-08-15T11:07:35Z" finished-at="2021-08-15T11:07:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@6273c5a4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="myTestcase()[pri:0, instance:com.pack.TestMaven.ReadExcel2@31610302]" name="myTestcase" duration-ms="14459" started-at="2021-08-15T11:07:35Z" finished-at="2021-08-15T11:07:50Z">
+        <test-method status="PASS" signature="myTestcase()[pri:0, instance:com.pack.TestMaven.ReadExcel2@31610302]" name="myTestcase" duration-ms="14781" started-at="2021-08-16T16:11:34Z" finished-at="2021-08-16T16:11:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myTestcase -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.pack.TestMaven.ReadExcel2@31610302]" name="closeDriver" is-config="true" duration-ms="2272" started-at="2021-08-15T11:07:50Z" finished-at="2021-08-15T11:07:52Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.pack.TestMaven.ReadExcel2@31610302]" name="closeDriver" is-config="true" duration-ms="223" started-at="2021-08-16T16:11:48Z" finished-at="2021-08-16T16:11:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- com.pack.TestMaven.ReadExcel2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test_Demo_2 -->
+  </suite> <!-- Suite_Demo_2 -->
 </testng-results>
